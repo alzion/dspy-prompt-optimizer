@@ -24,6 +24,26 @@ st.set_page_config(page_title="Learn DSPy", page_icon="⚡", layout="wide")
 st.title("⚡ Learn DSPy — Prompt Optimization in Practice")
 st.caption("A hands-on walkthrough of what DSPy does and why it works.")
 
+with st.expander("What is this? (start here if you're new)", expanded=True):
+    st.markdown("""
+**DSPy** is a framework from Stanford that treats LLM prompts as **compiled programs**, not hand-written strings.
+
+Instead of manually tweaking prompt wording until it works, you define your task as a typed signature (inputs → outputs)
+and let an optimizer rewrite the instruction and select few-shot examples automatically — using your own labeled data as the ground truth.
+
+**The key insight:** prompt engineering is just an optimization problem. Given a metric and examples, DSPy can find a
+better prompt than you'd write by hand, systematically rather than by trial and error.
+
+---
+
+**Why this tool?** Writing DSPy programs requires knowing Python and the DSPy API. This removes that barrier:
+
+- **No code required** — describe your task in plain English, upload a CSV, get an optimized program back
+- **Teaches as it goes** — each step explains the DSPy concept behind it, so you learn while you optimize
+- **Exportable** — download `program.py` + `compiled.json` and run the optimized program anywhere
+- **BYOK** — your API key is never stored; you pay only for the LLM calls you make
+""")
+
 # ---------------------------------------------------------------------------
 # Session state
 # ---------------------------------------------------------------------------

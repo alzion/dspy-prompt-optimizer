@@ -1,0 +1,61 @@
+ticket,category
+I need to add a team member but there's no invite button.,account
+Two-factor authentication codes aren't working.,technical
+What's the difference between the Pro and Business plans?,general
+I need an itemized invoice for Q1.,billing
+I can't connect to the API — getting a 503 error.,technical
+The search feature returns no results even for exact matches.,technical
+Do you offer onboarding sessions?,general
+Do you integrate with Salesforce?,general
+Can I merge two accounts into one?,account
+Notifications aren't showing up on my phone.,technical
+I was billed for a feature I never signed up for.,billing
+I need to change the name on my account.,account
+How do I delete my account and all my data?,account
+What are your support hours?,general
+I need to transfer my account to a different email address.,account
+Do you offer discounts for nonprofits?,general
+I cancelled but my card was still charged.,billing
+I'm getting a SSL certificate error on your website.,technical
+Can I use your service in China?,general
+The promo code didn't apply to my order.,billing
+Video playback stutters on Firefox but works on Chrome.,technical
+My credit card expired — how do I update it?,billing
+Is there an affiliate program?,general
+The dashboard takes 30 seconds to load.,technical
+I accidentally deleted my account — can it be restored?,account
+My data export is corrupted — all dates are wrong.,technical
+I was charged twice for my subscription this month.,billing
+I want to enable SSO for my team.,account
+The mobile app doesn't sync with the desktop version.,technical
+Is my data stored in the EU?,general
+File uploads stop at 80% and fail.,technical
+The integration with Slack stopped posting notifications.,technical
+My account shows as suspended but I haven't violated any terms.,account
+I get a timeout when trying to run a large query.,technical
+What's the maximum file size I can upload?,general
+The annual plan I paid for shows as monthly.,billing
+My account was compromised — please help me secure it.,account
+I need to download all my data before closing my account.,account
+I forgot my password and reset emails aren't arriving.,account
+Do you have a public roadmap?,general
+I want to switch from monthly to annual billing.,billing
+Do you have a mobile app for Android?,general
+What's your uptime SLA?,general
+Can I get a refund for the unused portion of my plan?,billing
+Keyboard shortcuts stopped working after the update.,technical
+Can I have two users under one account?,account
+My payment failed but the money left my account.,billing
+I'm locked out after too many failed login attempts.,account
+What programming languages does your API support?,general
+My profile picture won't update.,account
+I need a VAT receipt for my last payment.,billing
+Can I white-label your product?,general
+I'd like to downgrade my plan and get a prorated refund.,billing
+My payment is pending for 5 days — is this normal?,billing
+The app crashes every time I try to export a file.,technical
+Dark mode is broken in the latest update.,technical
+Is there a free tier available?,general
+My invoice shows the wrong amount.,billing
+Why did my price increase without notice?,billing
+How do I change my username?,account

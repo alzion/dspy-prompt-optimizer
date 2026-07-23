@@ -1,0 +1,62 @@
+log_message,severity,service,actionable
+WARNING worker: retrying job 8877 — attempt 2 of 3,WARNING,worker,no
+ERROR api: invalid JSON in request body from client 192.168.1.55,ERROR,api,no
+INFO auth: user alice@example.com logged in successfully,INFO,auth,no
+CRITICAL worker: poison message detected in queue — consumer stopped,CRITICAL,worker,yes
+WARNING auth: 14 failed login attempts from IP 10.0.0.88 in 5 minutes,WARNING,auth,yes
+WARNING worker: queue depth reached 5000 messages,WARNING,worker,yes
+INFO worker: dead-letter queue cleared — 0 messages remaining,INFO,worker,no
+CRITICAL api: health check endpoint returning 500 — all pods,CRITICAL,api,yes
+INFO auth: new API key generated for tenant beta-labs,INFO,auth,no
+INFO auth: SAML SSO configured for org enterprise-co,INFO,auth,no
+INFO worker: job 10201 completed — 9800 records processed,INFO,worker,no
+WARNING api: rate limit approaching for tenant acme-corp (87% used),WARNING,api,yes
+INFO cache: evicted 1200 keys due to memory pressure,INFO,cache,no
+CRITICAL api: response time exceeded 10000ms for /v1/infer,CRITICAL,api,yes
+ERROR worker: task timeout after 300s on job 7743,ERROR,worker,yes
+INFO cache: warm-up completed — 48000 keys loaded,INFO,cache,no
+CRITICAL auth: certificate expiry in 2 days for api.example.com,CRITICAL,auth,yes
+WARNING api: JWT token near expiry for service account svc-ml,WARNING,api,yes
+ERROR worker: GPU OOM error on node gpu-03 during batch job 4421,ERROR,worker,yes
+WARNING api: deprecated endpoint /v0/predict called by 3 tenants,WARNING,api,yes
+ERROR database: connection pool exhausted after 120s,ERROR,database,yes
+INFO database: index rebuild on sessions table complete,INFO,database,no
+CRITICAL worker: all workers unhealthy — no capacity available,CRITICAL,worker,yes
+WARNING database: slow query detected (4200ms) on table user_events,WARNING,database,yes
+CRITICAL cache: data loss detected — AOF file corrupted,CRITICAL,cache,yes
+INFO cache: TTL policy updated — expiry set to 3600s,INFO,cache,no
+WARNING cache: connection pool saturation at 90%,WARNING,cache,yes
+ERROR worker: job 9034 failed after 3 retries — out of memory,ERROR,worker,yes
+ERROR cache: eviction policy maxmemory-policy misconfigured — data dropped,ERROR,cache,yes
+ERROR api: authentication service returned 503 — requests failing,ERROR,api,yes
+INFO auth: oauth2 token issued for user frank@example.com,INFO,auth,no
+CRITICAL api: disk usage at 97% on /var/data,CRITICAL,api,yes
+INFO worker: autoscaler added 2 nodes to handle load spike,INFO,worker,no
+INFO database: new read replica provisioned in us-east-2,INFO,database,no
+WARNING cache: miss rate spike — 72% misses in last 5 minutes,WARNING,cache,yes
+ERROR cache: redis connection refused on port 6379,ERROR,cache,yes
+INFO api: deployment v2.3.1 rolled out successfully,INFO,api,no
+WARNING auth: password policy not met for bulk import of 200 users,WARNING,auth,yes
+CRITICAL database: primary node unreachable — failing over to replica,CRITICAL,database,yes
+INFO api: metrics scrape completed by prometheus in 210ms,INFO,api,no
+INFO worker: batch job 11000 queued — estimated start in 90s,INFO,worker,no
+WARNING database: replica lag at 42 seconds behind primary,WARNING,database,yes
+INFO database: vacuum completed on user_events in 12s,INFO,database,no
+INFO auth: MFA enrollment completed for dave@example.com,INFO,auth,no
+INFO api: GET /v1/models returned 200 in 84ms,INFO,api,no
+INFO api: TLS 1.3 negotiated with client 203.0.113.45,INFO,api,no
+ERROR auth: too many failed login attempts for bob@example.com — account locked,ERROR,auth,yes
+ERROR api: upstream timeout from model-serving-svc after 30s,ERROR,api,yes
+INFO worker: scheduled cleanup job started,INFO,worker,no
+ERROR cache: serialization error on key session:abc123,ERROR,cache,yes
+WARNING cache: hit rate dropped below 40% threshold,WARNING,cache,yes
+INFO worker: job 9821 completed in 3.2s,INFO,worker,no
+WARNING database: checkpoint taking longer than 60s,WARNING,database,yes
+INFO auth: password reset email sent to carol@example.com,INFO,auth,no
+ERROR database: foreign key constraint violation on payments insert,ERROR,database,yes
+ERROR database: deadlock detected on orders table — transaction rolled back,ERROR,database,yes
+CRITICAL auth: root credentials used from unknown IP 185.2.3.4,CRITICAL,auth,yes
+ERROR database: max_connections reached — new connections refused,ERROR,database,yes
+CRITICAL database: disk write failure on /data/pg — filesystem full,CRITICAL,database,yes
+INFO api: canary deployment at 5% traffic — no errors,INFO,api,no
+WARNING worker: memory usage at 88% on node worker-07,WARNING,worker,yes

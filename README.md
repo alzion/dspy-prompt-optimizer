@@ -14,6 +14,21 @@ short_description: Optimize prompts with DSPy GEPA — BYOK
 
 Turn a free-form task description into an optimized [DSPy](https://dspy.ai) program using the **GEPA** optimizer.
 
+## What is DSPy?
+
+[DSPy](https://dspy.ai) is a framework from Stanford that treats LLM prompts as **compiled programs**, not hand-written strings. Instead of manually tweaking prompt wording until it works, you define your task as a typed signature (inputs → outputs) and let an optimizer rewrite the instruction and select few-shot examples automatically — using your own labeled data as the ground truth.
+
+The key insight: prompt engineering is just an optimization problem. Given a metric and examples, DSPy can find a better prompt than you'd write by hand, and it does so systematically rather than by trial and error.
+
+## Why this tool?
+
+Writing DSPy programs still requires knowing Python and the DSPy API. This tool removes that barrier:
+
+- **No code required** — describe your task in plain English, upload a CSV, get an optimized program back
+- **Teaches as it goes** — each step explains the DSPy concept behind it, so you learn while you optimize
+- **Exportable** — download `program.py` + `compiled.json` and run the optimized program anywhere, independent of this tool
+- **BYOK** — your API key is never stored; you pay only for the LLM calls you make
+
 ## How it works
 
 1. Describe your task in plain English
@@ -49,7 +64,7 @@ Given a customer support ticket, classify it as billing, technical, or general.
 ## Local setup
 
 ```bash
-git clone https://huggingface.co/spaces/YOUR_USERNAME/dspy-prompt-optimizer
+git clone https://github.com/alzion/dspy-prompt-optimizer
 cd dspy-prompt-optimizer
 pip install -r requirements.txt
 streamlit run app.py
